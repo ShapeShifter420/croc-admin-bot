@@ -13,7 +13,7 @@ plugins {
     kotlin("plugin.spring") version "1.9.23"
 }
 
-group = "ru.template.telegram.bot.kotlin"
+group = "ru.ShapeShifter420.croc"
 version = "1.0.0"
 
 java {
@@ -116,7 +116,7 @@ jooq {
                         excludes = "flyway_schema_history|spatial_ref_sys|st_.*|_st.*"
                     }
                     target.apply {
-                        packageName = "ru.template.telegram.bot.kotlin.template.domain"
+                        packageName = "ru.template.telegram.bot"
                     }
                     strategy.name = "org.jooq.codegen.DefaultGeneratorStrategy"
                 }

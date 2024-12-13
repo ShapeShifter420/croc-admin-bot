@@ -1,1 +1,1 @@
-rootProject.name = "telegram-bot-kotlin-template"
+rootProject.name = "croc-admin-bot"
