@@ -1,8 +1,8 @@
 bot:
-  username: kotlin_template_bot
+  username:
   token:
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/kotlin_template
+    url: jdbc:postgresql://localhost:5432/croc_admin_bot
     username: postgres
     password: postgres
